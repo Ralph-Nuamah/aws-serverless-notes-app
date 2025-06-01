@@ -27,5 +27,6 @@ A simple serverless application deployed on AWS that allows users to create shor
 *   **Source Control:** Git & GitHub
 
 ## Architecture Diagram
-![Architecture_diagram](https://github.com/user-attachments/assets/f96c23dc-e59d-4a1c-9c01-a7fc4d37fe5b)
+![Architecture_Diagram](https://github.com/user-attachments/assets/eac3e852-a28c-4188-8703-3dd5ec1e14a7)
+
 
