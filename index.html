@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Notes App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Notes / Pastebin</h1>
+
+        <textarea id="noteContent" placeholder="Enter your note here..."></textarea>
+        <button id="saveNoteBtn">Save Note</button>
+
+        <div id="resultArea">
+            <!-- Results will be shown here -->
+        </div>
+
+        <hr>
+
+        <h2>Retrieve Note</h2>
+        <input type="text" id="retrieveNoteId" placeholder="Enter Note ID to retrieve">
+        <button id="retrieveNoteBtn">Get Note</button>
+        <div id="retrievedNoteArea">
+            <!-- Retrieved note will be shown here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
